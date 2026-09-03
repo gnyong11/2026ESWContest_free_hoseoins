@@ -1,0 +1,6 @@
+paho-mqtt>=1.6,<3
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+# Picamera2 is installed from Raspberry Pi OS apt and exposed to this venv
+# through --system-site-packages in setup_raspberry_pi.sh.
+# OpenCV and NumPy are also installed from Raspberry Pi OS apt for ARM stability.
